@@ -1,0 +1,51 @@
+digraph {
+	0 [label="main\nL:10\nS:6\nC:4"]
+	1 [label="f1\nL:3\nS:1\nC:8"]
+	0 -> 1
+	2 [label="f2\nL:8\nS:10\nC:7"]
+	0 -> 2
+	3 [label="f3\nL:7\nS:7\nC:4"]
+	0 -> 3
+	4 [label="f4\nL:8\nS:3\nC:2"]
+	0 -> 4
+	5 [label="f5\nL:4\nS:4\nC:9"]
+	1 -> 5
+	6 [label="f6\nL:7\nS:6\nC:2"]
+	2 -> 6
+	7 [label="f7\nL:6\nS:7\nC:7"]
+	3 -> 7
+	8 [label="f8\nL:9\nS:3\nC:6"]
+	1 -> 8
+	9 [label="f9\nL:1\nS:10\nC:3"]
+	5 -> 9
+	10 [label="f10\nL:0\nS:9\nC:2"]
+	7 -> 10
+	11 [label="f11\nL:0\nS:8\nC:10"]
+	8 -> 11
+	12 [label="f12\nL:0\nS:4\nC:3"]
+	7 -> 12
+	13 [label="f13\nL:3\nS:6\nC:10"]
+	11 -> 13
+	14 [label="f14\nL:7\nS:10\nC:9"]
+	10 -> 14
+	15 [label="f15\nL:1\nS:6\nC:3"]
+	10 -> 15
+	16 [label="f16\nL:3\nS:3\nC:2"]
+	12 -> 16
+	17 [label="f17\nL:2\nS:3\nC:9"]
+	15 -> 17
+	18 [label="f18\nL:4\nS:0\nC:0"]
+	13 -> 18
+	19 [label="f19\nL:3\nS:3\nC:6"]
+	15 -> 19
+	20 [label="f20\nL:8\nS:6\nC:9"]
+	16 -> 20
+	2 -> 11
+	3 -> 10
+	4 -> 13
+	4 -> 8
+	5 -> 10
+	5 -> 11
+	7 -> 20
+	10 -> 20
+	0 -> 3 [color="red"]	3 -> 7 [color="red"]	7 -> 12 [color="red"]	12 -> 16 [color="red"]	16 -> 20 [color="red"]	0 -> 3 [color="green"]	3 -> 7 [color="green"]	7 -> 12 [color="green"]	12 -> 16 [color="green"]	16 -> 20 [color="green"]	0 -> 3 [color="blue"]	3 -> 7 [color="blue"]	7 -> 10 [color="blue"]	10 -> 14 [color="blue"]	0 -> 3 [color="purple"]	3 -> 7 [color="purple"]	7 -> 12 [color="purple"]	12 -> 16 [color="purple"]	16 -> 20 [color="purple"]}
