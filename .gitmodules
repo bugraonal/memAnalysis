@@ -1,0 +1,3 @@
+[submodule "graphGen"]
+	path = graphGen
+	url = https://github.com/bugraonal/randomDAGgenerator
